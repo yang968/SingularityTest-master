@@ -1,4 +1,0 @@
-Is AI playing?: true
-ksdahf: Option2: How is it going?
-
-Admin: Alright.
