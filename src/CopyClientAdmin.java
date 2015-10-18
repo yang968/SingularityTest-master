@@ -19,8 +19,8 @@ public class CopyClientAdmin {
     BufferedReader in;
     PrintWriter out;
     JFrame frame = new JFrame("Admin");
-    JTextField textField = new JTextField(40);
-    JTextArea messageArea = new JTextArea(15, 40);
+    JTextField textField = new JTextField(50);
+    JTextArea messageArea = new JTextArea(15, 50);
     boolean isAIPlaying;
     int questionNumber = 1;
     String lastUserInput;
@@ -143,11 +143,9 @@ public class CopyClientAdmin {
                                 messageArea.append(getQuestionChoices(questionNumber, Integer.parseInt(lastUserInput))); //the number
                                 questionNumber++;
                                 if (isAIPlaying) {
-                                    JOptionPane.showMessageDialog(frame,
-                                            a.response(per ,questionNumber - 1, Integer.parseInt(lastUserInput)),
-                                            "Response",
-                                            JOptionPane.INFORMATION_MESSAGE);
-                                    messageArea.setText("");
+                                    messageArea.append("\n");
+                                    messageArea.append("Please pretend you are typing the message below:\n");
+                                    messageArea.append(a.response(per, questionNumber - 1, Integer.parseInt(lastUserInput)));
                                 }
                                 textField.setEditable(true);
                             }
@@ -222,6 +220,12 @@ public class CopyClientAdmin {
      */
     public static void main(String[] args) throws Exception {
         CopyClientAdmin client = new CopyClientAdmin();
+        JFrame frame = new JFrame();
+        JOptionPane.showMessageDialog(frame,
+                "This is the IP Address. Please show it to the Tester before playing: \n" +
+                        InetAddress.getLocalHost().toString().substring(InetAddress.getLocalHost().toString().indexOf("/") + 1),
+                "IP Address",
+                JOptionPane.INFORMATION_MESSAGE);
         client.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         client.frame.setVisible(true);
         client.run();

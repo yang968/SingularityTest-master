@@ -1,0 +1,4 @@
+Is AI playing?: true
+G: Option3: How are you doing?
+
+Admin: I'm a little bit tired

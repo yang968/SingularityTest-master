@@ -1,0 +1,7 @@
+Is AI playing?: true
+sdalf: Option3: How are you doing?
+
+Admin: I'm a little bit tired
+sdalf: Option2: Is it warm?
+
+Admin: Nope.

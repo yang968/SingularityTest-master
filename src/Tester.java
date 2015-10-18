@@ -33,8 +33,8 @@ public class Tester {
     BufferedReader in;
     PrintWriter out;
     JFrame frame = new JFrame("Tester");
-    JTextField textField = new JTextField(40);
-    JTextArea messageArea = new JTextArea(15, 40);
+    JTextField textField = new JTextField(50);
+    JTextArea messageArea = new JTextArea(15, 50);
     public static String userName;
     boolean isFirstLine = true;
     boolean isAIPlaying;
@@ -155,6 +155,11 @@ public class Tester {
 //                userName = getName();
                 frame.setTitle(userName);
                 textField.setEditable(true);
+                messageArea.append("Welcome to the Singularity Test!\n\n");
+                messageArea.append("You will have the opportunity to ask Admin ten questions on ten topics. \n\n");
+                messageArea.append("On each topic, enter a number between 1-5 to choose which of the five \nquestions you want to ask the Admin. \n\n");
+                messageArea.append("By the end of the game, determine whether the Admin is a human (live-chatting)\n" +
+                        "or an AI (responses that were pre-recorded).\n\n");
                 messageArea.append("Type Hello To Start the Game\n");
             } else if (line.startsWith("MESSAGE")) {
 

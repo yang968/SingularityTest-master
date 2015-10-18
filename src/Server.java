@@ -1,6 +1,7 @@
 /**
  * Created by spenceryang on 10/16/15.
  */
+import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -30,7 +31,7 @@ import java.util.HashSet;
  *     2. The server should do some logging.
  */
 public class Server {
-
+    public static int numUserExit = 0;
     /**
      * The port that the server listens on.
      */
@@ -58,7 +59,8 @@ public class Server {
                 InetAddress.getLocalHost().toString().indexOf("/") + 1), 8000);
         ServerSocket listener = new ServerSocket(PORT);
         try {
-            while (true) {
+            while (numUserExit < 2) {
+                numUserExit++;
                 new Handler(listener.accept()).start();
             }
         } finally {

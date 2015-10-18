@@ -154,10 +154,10 @@ public class AI {
                                 return "As a distant relative, I like Hatsune Miku.";
                             case 3:
                                 //Answer
-                                return "http://bit.ly/1e1EYJv";
+                                return "*Plays 8-bit tetris music*";
                             case 4:
                                 //Answer
-                                return "http://bit.ly/1QFcB4z";
+                                return "Never gonna give you up... Never gonna let you down...";
                             case 5:
                                 //Answer
                                 return "No. You're talking to the wrong machine.";
