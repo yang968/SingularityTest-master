@@ -1,0 +1,32 @@
+Is AI playing?: true
+gus: Option1: What's up?
+
+Admin: I don't have enough rams to answer your question. :)
+gus: Option3: Is it cold?
+
+Admin: I'm a computer. I don't care
+gus: Option5: How would you rate your intelligence, relative to your peers?
+
+Admin: I'm as fast as a super computer.
+gus: Option4: How often do you workout?
+
+Admin: Does flexing my screen count as working out?.
+gus: Option2: Are you a party animal?
+
+Admin: Yes I like to have cakes for my party.
+gus: Option3: Can you recommend me a song?
+
+Admin: http://bit.ly/1e1EYJv
+gus: Option1: Are you single?
+
+Admin: No I run on quad cores.
+gus: Option2: What is the biggest struggle you are trying to overcome?
+
+Admin: Processing your choice of questions.
+gus: Option1: What is the one adjective that your friends describes you most?
+
+Admin: My creators tell me that I have stunning graphic displays
+gus: Option2: Ai
+
+gus: Yes, you got it right! You've been talking to an AI
+Dear Admin, You have failed to trick your opponent :(

@@ -1,0 +1,32 @@
+Is AI playing?: true
+BucketHead: Option1: What's up?
+
+Admin: Nothing much.
+BucketHead: Option2: Is it warm?
+
+Admin: Not really.
+BucketHead: Option5: How would you rate your intelligence, relative to your peers?
+
+Admin: Average.
+BucketHead: Option4: How often do you workout?
+
+Admin: Rarely.
+BucketHead: Option1: How old are you?
+
+Admin: 18.
+BucketHead: Option4: Can you sing?
+
+Admin: Kinda.
+BucketHead: Option5: I want a love advice.
+
+Admin: I don't know what to tell you.
+BucketHead: Option1: Do you have anything in mind right now?
+
+Admin: Nope.
+BucketHead: Option3: What is your hair color?
+
+Admin: Black.
+BucketHead: Option2: Ai
+
+BucketHead: Yes, you got it right! You've been talking to an AI
+Dear Admin, You have failed to trick your opponent :(

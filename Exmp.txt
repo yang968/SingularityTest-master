@@ -1,0 +1,7 @@
+Is AI playing?: true
+Exmp: Option2: How is it going?
+
+Admin: Horrible. I didn't get my cup of java yet. :(
+Exmp: Option3: Is it cold?
+
+Admin: I'm a computer. I don't care

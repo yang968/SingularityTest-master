@@ -1,0 +1,32 @@
+Is AI playing?: false
+Aaron: Option3: How are you doing?
+
+Admin: beeeeeep
+Aaron: Option2: Is it warm?
+
+Admin: beep be be be?
+Aaron: Option1: What's your major?
+
+Admin: doo beep beep
+Aaron: Option5: Do you like to play sports, or would you rather watch sports instead?
+
+Admin: I like to play sports
+Aaron: Option4: How would you describe yourself: extrovert or introvert? Why?
+
+Admin: beeeeeeep
+Aaron: Option3: Can you recommend me a song?
+
+Admin: beep be be be?
+Aaron: Option5: I want a love advice.
+
+Admin: Okay, I'll pick you up at 7.
+Aaron: Option5: What's your biggest fear?
+
+Admin: Running out of power
+Aaron: Option1: What is the one adjective that your friends describes you most?
+
+Admin: doo beep beep
+Aaron: Option2: Ai
+
+Aaron: Sorry your guess is wrong, you've been chatting with a human
+Dear Admin, Congratulations! You have successfully tricked your opponent!

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TestAdmin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TestAdmin_jar</output-path>
+    <root id="archive" name="SingularityTest.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/Admin/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="SingularityTest" />
+    </root>
+  </artifact>
+</component>
