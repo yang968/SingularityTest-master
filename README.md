@@ -1,3 +1,4 @@
 # SingularityTest-master
-# DON'T TOUCH JAR FILES YET
-# Make a separate branch if you make any changes
+# To Play the game, please to go "Game Files" Folder
+# Instructions and Game files are in "Singularity Test.zip" file.
+# Enjoy!
